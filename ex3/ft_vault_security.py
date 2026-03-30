@@ -5,14 +5,14 @@ if __name__ == "__main__":
     print("Initiating secure vault access...")
     print("Vault connection established with failsafe protocols\n")
 
-    with open("fichier.txt", "w") as f:
+    with open("vault.txt", "w") as f:
         f.write("SECURE EXTRACTION:\n")
         f.write("[CLASSIFIED] Quantum encryption keys recovered\n")
         f.write("[CLASSIFIED] Archive integrity: 100%\n")
         f.write("\nSECURE PRESERVATION:\n")
         f.write("[CLASSIFIED] New security protocols archived\n")
         f.write("Vault automatically sealed upon completion\n")
-    with open("fichier.txt", "r") as f:
+    with open("vault.txt", "r") as f:
         print(f.read())
 
 
