@@ -14,20 +14,3 @@ if __name__ == "__main__":
         f.write("Vault automatically sealed upon completion\n")
     with open("vault.txt", "r") as f:
         print(f.read())
-
-
-
-# utilisation "with" pour une gestion correcte des fichier
-# with ferme automatiquement les fichiers meme si erreur
-#
-# protcole sac red (secu):
-# - ouverture du coffre
-# - s'executent en secu a l'in de la barriere de protection
-# - le coffre se referme de lui-meme en cas de probleme
-#
-# protocoles de secu du coffre:
-# - implementations des operations des fichiers securises en utilisant "with"
-# pour la lecture des donnees classee et preserver les news informations
-# le prog doit demontrer le scellement auto du vault que ca reussisse ou 
-# pas
-# journalisation de secu pro tout au long du processus
