@@ -1,5 +1,3 @@
-
-
 if __name__ == "__main__":
     print("\033[1;35m\n==== CYBER ARCHIVES - DATA RECOVERY SYSTEM "
           "===\033[0m\n")
@@ -14,5 +12,5 @@ if __name__ == "__main__":
         exit()
 
     print(file.read())
-    print("\nData recovery complete. Storage unit disconnected.")
+    print("Data recovery complete. Storage unit disconnected.")
     file.close()

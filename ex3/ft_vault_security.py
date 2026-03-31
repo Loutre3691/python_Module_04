@@ -1,6 +1,6 @@
 if __name__ == "__main__":
     print("\033[1;35m\n==== CYBER ARCHIVES - VAULT SECURITY SYSTEM"
-          "===\033[0m\n")
+          " ===\033[0m\n")
 
     print("Initiating secure vault access...")
     print("Vault connection established with failsafe protocols\n")
@@ -14,3 +14,5 @@ if __name__ == "__main__":
         f.write("Vault automatically sealed upon completion\n")
     with open("vault.txt", "r") as f:
         print(f.read())
+
+    print("All vault operations completed with maximum security.")

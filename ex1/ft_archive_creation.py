@@ -1,5 +1,3 @@
-
-
 if __name__ == "__main__":
     print("\033[1;35m\n===  CYBER ARCHIVES - PRESERVATION SYSTEM "
           "===\033[0m\n")
